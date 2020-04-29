@@ -15,7 +15,16 @@ REGION_ALIAS("REGION_STACK", RAM);
 /* Skip first 64k allocated for bootloader */
 _stext = 0x20010000;
 
+MEMORY 
+{
+    /* This is actually RAM, but we have relocatable code, so the origin does not matter */
+    loader : ORIGIN = 0x0, LENGTH = 16k
+}
+
+
 SECTIONS {
+    . = 0x0;
+
     PrgCode : {
         . = ALIGN(4);
 
@@ -23,12 +32,17 @@ SECTIONS {
         KEEP(*(PrgCode.*))
         
         . = ALIGN(4);
-    } > FLASH
+    }  > loader
 
-    PrgData : {
+    PrgData . : {
         KEEP(*(PrgData))
         KEEP(*(PrgData.*))
-    } > RAM
+    } > loader
+
+    DeviceData . : {
+        KEEP(*(DeviceData))
+        KEEP(*(DeviceData.*))
+    } > loader
 }
 
 INCLUDE link.x

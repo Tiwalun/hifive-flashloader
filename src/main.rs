@@ -154,9 +154,23 @@ pub extern "C" fn UnInit(_fnc: u32) -> i32 {
     0
 }
 
-/*
+const fn sectors() -> [FlashSector; 512] {
+    let mut sectors = [FlashSector::default(); 512];
 
-pub const FlashDevice: FlashDeviceDescription = FlashDeviceDescription {
+    sectors[0] = FlashSector {
+        size: 0x1000,
+        address: 0x0,
+    };
+    sectors[1] = SECTOR_END;
+
+    sectors
+}
+
+#[allow(non_upper_case_globals)]
+#[no_mangle]
+#[used]
+#[link_section = "DeviceData"]
+pub static FlashDevice: FlashDeviceDescription = FlashDeviceDescription {
     vers: 0x0101,
     dev_name: [0u8; 128],
     dev_type: 5,
@@ -167,10 +181,7 @@ pub const FlashDevice: FlashDeviceDescription = FlashDeviceDescription {
     empty: 0xff,
     program_time_out: 1000,
     erase_time_out: 2000,
-    flash_sectors: [FlashSector {
-        size: 0x1000,
-        address: 0x0,
-    }]),
+    flash_sectors: sectors(),
 };
 
 #[repr(C)]
@@ -209,8 +220,6 @@ const SECTOR_END: FlashSector = FlashSector {
     size: 0xffff_ffff,
     address: 0xffff_ffff,
 };
-
-*/
 
 #[link_section = "PrgData"]
 #[used]
