@@ -26,7 +26,7 @@ jobs:
           args: --release
 
       - name: Store binary
-        uses: actions/upload-artifact@2
+        uses: actions/upload-artifact@v2
         with:
           name: flashloader-elf
           path: target/riscv32imac-unknown-none-elf/release/hifive-flashloader
