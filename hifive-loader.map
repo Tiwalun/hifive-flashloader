@@ -1,0 +1,522 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0        0     1 . = 0x0
+       0        0      ad4     4 PrgCode
+       0        0        0     1         . = ALIGN ( 4 )
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.text)
+       0        0        0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.text)
+       0        0        8     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.text._ZN4core4cell19UnsafeCell$LT$T$GT$3get17hbe89251686084db4E)
+       0        0        0     1                 
+       0        0        0     1                 
+       0        0        0     1                 
+       0        0        8     1                 core::cell::UnsafeCell$LT$T$GT$::get::hbe89251686084db4
+       8        8       f8     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text._ZN18hifive_flashloader13transfer_byte17h2a3ca347ef668847E)
+       8        8        0     1                 
+       8        8        0     1                 
+       8        8        0     1                 
+       8        8       f8     1                 hifive_flashloader::transfer_byte::h2a3ca347ef668847
+      22       22        0     1                 
+      3e       3e        0     1                 
+      46       46        0     1                 
+      58       58        0     1                 
+      7c       7c        0     1                 
+      98       98        0     1                 
+      be       be        0     1                 
+      da       da        0     1                 
+      e6       e6        0     1                 
+      f2       f2        0     1                 
+      f4       f4        0     1                 
+      fa       fa        0     1                 
+     100      100        0     1                 
+     100      100       18     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text._ZN18hifive_flashloader12write_enable17h38d55b70151f8ef5E)
+     100      100        0     1                 
+     100      100        0     1                 
+     100      100        0     1                 
+     100      100       18     1                 hifive_flashloader::write_enable::h38d55b70151f8ef5
+     118      118        0     1                 
+     118      118       b0     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text._ZN18hifive_flashloader20read_status_register17h1f7755bdcf945c24E)
+     118      118        0     1                 
+     118      118        0     1                 
+     118      118        0     1                 
+     118      118       b0     1                 hifive_flashloader::read_status_register::h1f7755bdcf945c24
+     126      126        0     1                 
+     142      142        0     1                 
+     184      184        0     1                 
+     18e      18e        0     1                 
+     1a8      1a8        0     1                 
+     1c8      1c8        0     1                 
+     1c8      1c8       34     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text._ZN18hifive_flashloader18wait_for_wip_clear17hc682d24c472e055dE)
+     1c8      1c8        0     1                 
+     1c8      1c8        0     1                 
+     1c8      1c8        0     1                 
+     1c8      1c8       34     1                 hifive_flashloader::wait_for_wip_clear::hc682d24c472e055d
+     1e6      1e6        0     1                 
+     1fc      1fc        0     1                 
+     1fc      1fc      100     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text.EraseSector)
+     1fc      1fc        0     1                 
+     1fc      1fc        0     1                 
+     1fc      1fc        0     1                 
+     1fc      1fc      100     1                 EraseSector
+     20c      20c        0     1                 
+     220      220        0     1                 
+     23a      23a        0     1                 
+     274      274        0     1                 
+     2b4      2b4        0     1                 
+     2ce      2ce        0     1                 
+     2fc      2fc        0     1                 
+     2fc      2fc       54     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text.Init)
+     2fc      2fc        0     1                 
+     2fc      2fc        0     1                 
+     2fc      2fc        0     1                 
+     2fc      2fc       54     1                 Init
+     316      316        0     1                 
+     330      330        0     1                 
+     350      350        0     1                 
+     350      350      17c     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text.ProgramPage)
+     350      350        0     1                 
+     350      350        0     1                 
+     350      350        0     1                 
+     350      350      17c     1                 ProgramPage
+     368      368        0     1                 
+     386      386        0     1                 
+     39a      39a        0     1                 
+     3b4      3b4        0     1                 
+     3ec      3ec        0     1                 
+     43c      43c        0     1                 
+     440      440        0     1                 
+     45c      45c        0     1                 
+     466      466        0     1                 
+     480      480        0     1                 
+     498      498        0     1                 
+     49e      49e        0     1                 
+     4a2      4a2        0     1                 
+     4b4      4b4        0     1                 
+     4b6      4b6        0     1                 
+     4cc      4cc        0     1                 
+     4cc      4cc        a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.text.UnInit)
+     4cc      4cc        0     1                 
+     4cc      4cc        0     1                 
+     4cc      4cc        0     1                 
+     4cc      4cc        a     1                 UnInit
+     4d6      4d6        0     1                 
+     4d6      4d6       16     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.text._ZN50_$LT$T$u20$as$u20$core..convert..Into$LT$U$GT$$GT$4into17hed9b178a09f21a10E)
+     4d6      4d6        0     1                 
+     4d6      4d6        0     1                 
+     4d6      4d6        0     1                 
+     4d6      4d6       16     1                 _$LT$T$u20$as$u20$core..convert..Into$LT$U$GT$$GT$::into::hed9b178a09f21a10
+     4ec      4ec       12     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.text._ZN4core3ptr13read_volatile17h5425116d028cf86bE)
+     4ec      4ec        0     1                 
+     4ec      4ec        0     1                 
+     4ec      4ec        0     1                 
+     4ec      4ec       12     1                 core::ptr::read_volatile::h5425116d028cf86b
+     4fe      4fe        0     1                 
+     4fe      4fe        e     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.text._ZN4core3ptr14write_volatile17he5d0d7721f784854E)
+     4fe      4fe        0     1                 
+     4fe      4fe        0     1                 
+     4fe      4fe        0     1                 
+     4fe      4fe        e     1                 core::ptr::write_volatile::he5d0d7721f784854
+     50c      50c        0     1                 
+     50c      50c       12     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.text._ZN4core3ptr20slice_from_raw_parts17h1418184a01f31274E)
+     50c      50c        0     1                 
+     50c      50c        0     1                 
+     50c      50c        0     1                 
+     50c      50c       12     1                 core::ptr::slice_from_raw_parts::h1418184a01f31274
+     51e      51e        0     1                 
+     51e      51e       1c     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.text._ZN4core3ptr9const_ptr33_$LT$impl$u20$$BP$const$u20$T$GT$12wrapping_add17hc3266e268a12ee07E)
+     51e      51e        0     1                 
+     51e      51e        0     1                 
+     51e      51e        0     1                 
+     51e      51e       1c     1                 core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_add::hc3266e268a12ee07
+     53a      53a        0     1                 
+     53a      53a       1a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.text._ZN4core3ptr9const_ptr33_$LT$impl$u20$$BP$const$u20$T$GT$13guaranteed_eq17h673c375b26f9496dE)
+     53a      53a        0     1                 
+     53a      53a        0     1                 
+     53a      53a        0     1                 
+     53a      53a       1a     1                 core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::guaranteed_eq::h673c375b26f9496d
+     554      554        0     1                 
+     554      554       14     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.text._ZN4core3ptr9const_ptr33_$LT$impl$u20$$BP$const$u20$T$GT$15wrapping_offset17h827d3e22f0f8d9d6E)
+     554      554        0     1                 
+     554      554        0     1                 
+     554      554        0     1                 
+     554      554       14     1                 core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::wrapping_offset::h827d3e22f0f8d9d6
+     568      568        0     1                 
+     568      568       1c     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.text._ZN4core3ptr9const_ptr33_$LT$impl$u20$$BP$const$u20$T$GT$3add17h49de73a1c2ddb95bE)
+     568      568        0     1                 
+     568      568        0     1                 
+     568      568        0     1                 
+     568      568       1c     1                 core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::add::h49de73a1c2ddb95b
+     584      584        0     1                 
+     584      584       14     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.text._ZN4core3ptr9const_ptr33_$LT$impl$u20$$BP$const$u20$T$GT$6offset17h9d380e18add2c422E)
+     584      584        0     1                 
+     584      584        0     1                 
+     584      584        0     1                 
+     584      584       14     1                 core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::offset::h9d380e18add2c422
+     598      598        0     1                 
+     598      598       28     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.text._ZN4core3ptr9const_ptr33_$LT$impl$u20$$BP$const$u20$T$GT$7is_null17hca67816b592f2128E)
+     598      598        0     1                 
+     598      598        0     1                 
+     598      598        0     1                 
+     598      598       28     1                 core::ptr::const_ptr::_$LT$impl$u20$$BP$const$u20$T$GT$::is_null::hca67816b592f2128
+     5c0      5c0        0     1                 
+     5c0      5c0       a6     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.text._ZN4core5slice4iter13Iter$LT$T$GT$3new17hec812c6c05c1641bE)
+     5c0      5c0        0     1                 
+     5c0      5c0        0     1                 
+     5c0      5c0        0     1                 
+     5c0      5c0       a6     1                 core::slice::iter::Iter$LT$T$GT$::new::hec812c6c05c1641b
+     5dc      5dc        0     1                 
+     5ec      5ec        0     1                 
+     644      644        0     1                 
+     666      666        0     1                 
+     666      666       20     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.text._ZN4core5slice4iter87_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$9into_iter17hc64d2ef6c824e591E)
+     666      666        0     1                 
+     666      666        0     1                 
+     666      666        0     1                 
+     666      666       20     1                 core::slice::iter::_$LT$impl$u20$core..iter..traits..collect..IntoIterator$u20$for$u20$$RF$$u5b$T$u5d$$GT$::into_iter::hc64d2ef6c824e591
+     686      686        0     1                 
+     686      686       ec     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.text._ZN91_$LT$core..slice..iter..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hcf0ee98c5c02c884E)
+     686      686        0     1                 
+     686      686        0     1                 
+     686      686        0     1                 
+     686      686       ec     1                 _$LT$core..slice..iter..Iter$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::next::hcf0ee98c5c02c884
+     6ae      6ae        0     1                 
+     6f6      6f6        0     1                 
+     70c      70c        0     1                 
+     772      772        0     1                 
+     772      772       2a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader13transfer_byte28_$u7b$$u7b$closure$u7d$$u7d$17h6ce284100395301dE)
+     772      772        0     1                 
+     772      772        0     1                 
+     772      772        0     1                 
+     772      772       2a     1                 hifive_flashloader::transfer_byte::_$u7b$$u7b$closure$u7d$$u7d$::h6ce284100395301d
+     77a      77a        0     1                 
+     790      790        0     1                 
+     79c      79c        0     1                 
+     79c      79c       44     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader20read_status_register28_$u7b$$u7b$closure$u7d$$u7d$17h64769a2be7c802ecE)
+     79c      79c        0     1                 
+     79c      79c        0     1                 
+     79c      79c        0     1                 
+     79c      79c       44     1                 hifive_flashloader::read_status_register::_$u7b$$u7b$closure$u7d$$u7d$::h64769a2be7c802ec
+     7a4      7a4        0     1                 
+     7b0      7b0        0     1                 
+     7ba      7ba        0     1                 
+     7cc      7cc        0     1                 
+     7e0      7e0        0     1                 
+     7e0      7e0       44     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader20read_status_register28_$u7b$$u7b$closure$u7d$$u7d$17hfb9bf930bfa8402cE)
+     7e0      7e0        0     1                 
+     7e0      7e0        0     1                 
+     7e0      7e0        0     1                 
+     7e0      7e0       44     1                 hifive_flashloader::read_status_register::_$u7b$$u7b$closure$u7d$$u7d$::hfb9bf930bfa8402c
+     7e8      7e8        0     1                 
+     7f4      7f4        0     1                 
+     7fe      7fe        0     1                 
+     810      810        0     1                 
+     824      824        0     1                 
+     824      824       44     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader11EraseSector28_$u7b$$u7b$closure$u7d$$u7d$17hb6d750994b558f17E)
+     824      824        0     1                 
+     824      824        0     1                 
+     824      824        0     1                 
+     824      824       44     1                 hifive_flashloader::EraseSector::_$u7b$$u7b$closure$u7d$$u7d$::hb6d750994b558f17
+     82c      82c        0     1                 
+     838      838        0     1                 
+     842      842        0     1                 
+     854      854        0     1                 
+     868      868        0     1                 
+     868      868       44     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader11EraseSector28_$u7b$$u7b$closure$u7d$$u7d$17hddd6377b8ff04989E)
+     868      868        0     1                 
+     868      868        0     1                 
+     868      868        0     1                 
+     868      868       44     1                 hifive_flashloader::EraseSector::_$u7b$$u7b$closure$u7d$$u7d$::hddd6377b8ff04989
+     870      870        0     1                 
+     87c      87c        0     1                 
+     886      886        0     1                 
+     898      898        0     1                 
+     8ac      8ac        0     1                 
+     8ac      8ac       26     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader4Init28_$u7b$$u7b$closure$u7d$$u7d$17h14e27d63966dc42dE)
+     8ac      8ac        0     1                 
+     8ac      8ac        0     1                 
+     8ac      8ac        0     1                 
+     8ac      8ac       26     1                 hifive_flashloader::Init::_$u7b$$u7b$closure$u7d$$u7d$::h14e27d63966dc42d
+     8b2      8b2        0     1                 
+     8c4      8c4        0     1                 
+     8d2      8d2        0     1                 
+     8d2      8d2       44     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader11ProgramPage28_$u7b$$u7b$closure$u7d$$u7d$17he3150cc61020d86cE)
+     8d2      8d2        0     1                 
+     8d2      8d2        0     1                 
+     8d2      8d2        0     1                 
+     8d2      8d2       44     1                 hifive_flashloader::ProgramPage::_$u7b$$u7b$closure$u7d$$u7d$::he3150cc61020d86c
+     8da      8da        0     1                 
+     8e6      8e6        0     1                 
+     8f0      8f0        0     1                 
+     902      902        0     1                 
+     916      916        0     1                 
+     916      916       44     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.text._ZN18hifive_flashloader11ProgramPage28_$u7b$$u7b$closure$u7d$$u7d$17h395d66321d4c9742E)
+     916      916        0     1                 
+     916      916        0     1                 
+     916      916        0     1                 
+     916      916       44     1                 hifive_flashloader::ProgramPage::_$u7b$$u7b$closure$u7d$$u7d$::h395d66321d4c9742
+     91e      91e        0     1                 
+     92a      92a        0     1                 
+     934      934        0     1                 
+     946      946        0     1                 
+     95a      95a        0     1                 
+     95a      95a       20     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.text._ZN4core5slice3raw14from_raw_parts17h86f7467298a9ea64E)
+     95a      95a        0     1                 
+     95a      95a        0     1                 
+     95a      95a        0     1                 
+     95a      95a       20     1                 core::slice::raw::from_raw_parts::h86f7467298a9ea64
+     97a      97a        a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.text._ZN4core3ptr8non_null16NonNull$LT$T$GT$13new_unchecked17h4eee6ae9139bb32eE)
+     97a      97a        0     1                 
+     97a      97a        0     1                 
+     97a      97a        0     1                 
+     97a      97a        a     1                 core::ptr::non_null::NonNull$LT$T$GT$::new_unchecked::h4eee6ae9139bb32e
+     984      984        0     1                 
+     984      984        8     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.text._ZN4core3ptr8non_null16NonNull$LT$T$GT$6as_ptr17h291f71c20a27bf31E)
+     984      984        0     1                 
+     984      984        0     1                 
+     984      984        0     1                 
+     984      984        8     1                 core::ptr::non_null::NonNull$LT$T$GT$::as_ptr::h291f71c20a27bf31
+     98c      98c        0     1                 
+     98c      98c       32     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.text._ZN4core3num21_$LT$impl$u20$u32$GT$10swap_bytes17h77a18449b2b25f99E)
+     98c      98c        0     1                 
+     98c      98c        0     1                 
+     98c      98c        0     1                 
+     98c      98c       32     1                 core::num::_$LT$impl$u20$u32$GT$::swap_bytes::h77a18449b2b25f99
+     9be      9be        0     1                 
+     9be      9be       2a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.text._ZN4core3num21_$LT$impl$u20$u32$GT$11to_be_bytes17hc0c751dd8d841058E)
+     9be      9be        0     1                 
+     9be      9be        0     1                 
+     9be      9be        0     1                 
+     9be      9be       2a     1                 core::num::_$LT$impl$u20$u32$GT$::to_be_bytes::hc0c751dd8d841058
+     9e8      9e8        0     1                 
+     9e8      9e8       40     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.text._ZN4core3num21_$LT$impl$u20$u32$GT$11to_ne_bytes17h4b89e556e7d5e4f4E)
+     9e8      9e8        0     1                 
+     9e8      9e8        0     1                 
+     9e8      9e8        0     1                 
+     9e8      9e8       40     1                 core::num::_$LT$impl$u20$u32$GT$::to_ne_bytes::h4b89e556e7d5e4f4
+     a28      a28        0     1                 
+     a28      a28       1a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.text._ZN4core3num21_$LT$impl$u20$u32$GT$5to_be17h41ac627d004862deE)
+     a28      a28        0     1                 
+     a28      a28        0     1                 
+     a28      a28        0     1                 
+     a28      a28       1a     1                 core::num::_$LT$impl$u20$u32$GT$::to_be::h41ac627d004862de
+     a42      a42        0     1                 
+     a42      a42       10     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.text._ZN4core5slice29_$LT$impl$u20$$u5b$T$u5d$$GT$3len17h6bcbbf06e2898514E)
+     a42      a42        0     1                 
+     a42      a42        0     1                 
+     a42      a42        0     1                 
+     a42      a42       10     1                 core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::len::h6bcbbf06e2898514
+     a52      a52        0     1                 
+     a52      a52       20     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.text._ZN4core5slice29_$LT$impl$u20$$u5b$T$u5d$$GT$4iter17hfb5c6994471be4d9E)
+     a52      a52        0     1                 
+     a52      a52        0     1                 
+     a52      a52        0     1                 
+     a52      a52       20     1                 core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::iter::hfb5c6994471be4d9
+     a72      a72        0     1                 
+     a72      a72        a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.text._ZN4core5slice29_$LT$impl$u20$$u5b$T$u5d$$GT$6as_ptr17h26c755d2bfddbf92E)
+     a72      a72        0     1                 
+     a72      a72        0     1                 
+     a72      a72        0     1                 
+     a72      a72        a     1                 core::slice::_$LT$impl$u20$$u5b$T$u5d$$GT$::as_ptr::h26c755d2bfddbf92
+     a7c      a7c        0     1                 
+     a7c      a7c       1a     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.text._ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$13guaranteed_eq17h78a93ddc664cac8bE)
+     a7c      a7c        0     1                 
+     a7c      a7c        0     1                 
+     a7c      a7c        0     1                 
+     a7c      a7c       1a     1                 core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::guaranteed_eq::h78a93ddc664cac8b
+     a96      a96        0     1                 
+     a96      a96       14     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.text._ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$6offset17hbaf530cd58781cb5E)
+     a96      a96        0     1                 
+     a96      a96        0     1                 
+     a96      a96        0     1                 
+     a96      a96       14     1                 core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::offset::hbaf530cd58781cb5
+     aaa      aaa        0     1                 
+     aaa      aaa       28     2         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.text._ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h6aaff28707162223E)
+     aaa      aaa        0     1                 
+     aaa      aaa        0     1                 
+     aaa      aaa        0     1                 
+     aaa      aaa       28     1                 core::ptr::mut_ptr::_$LT$impl$u20$$BP$mut$u20$T$GT$::is_null::h6aaff28707162223
+     ad2      ad2        0     1                 
+     ad2      ad2        2     1         . = ALIGN ( 4 )
+     ad4      ad4     10a0     4 DeviceData
+     ad4      ad4     10a0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(DeviceData)
+     ad4      ad4     10a0     1                 FlashDevice
+       0        0      7f8     1 .debug_abbrev
+       0        0       7b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.debug_abbrev)
+      7b       7b      15a     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_abbrev)
+     1d5      1d5       6f     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.debug_abbrev)
+     244      244       8e     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_abbrev)
+     2d2      2d2       85     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_abbrev)
+     357      357      129     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_abbrev)
+     480      480       f4     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_abbrev)
+     574      574       7b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.debug_abbrev)
+     5ef      5ef       7b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_abbrev)
+     66a      66a       6a     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_abbrev)
+     6d4      6d4       9f     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_abbrev)
+     773      773       85     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_abbrev)
+       0        0     2849     1 .debug_info
+       0        0       a3     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.debug_info)
+       0        0        0     1                 
+      a3       a3     1260     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_info)
+      a3       a3        0     1                 
+    1303     1303       b2     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.debug_info)
+    1303     1303        0     1                 
+    13b5     13b5      140     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_info)
+    13b5     13b5        0     1                 
+    14f5     14f5      1e0     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_info)
+    14f5     14f5        0     1                 
+    16d5     16d5      306     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_info)
+    16d5     16d5        0     1                 
+    19db     19db      942     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_info)
+    19db     19db        0     1                 
+    231d     231d       b1     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.debug_info)
+    231d     231d        0     1                 
+    23ce     23ce       d8     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_info)
+    23ce     23ce        0     1                 
+    24a6     24a6      103     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_info)
+    24a6     24a6        0     1                 
+    25a9     25a9      18d     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_info)
+    25a9     25a9        0     1                 
+    2736     2736      113     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_info)
+    2736     2736        0     1                 
+       0        0      280     1 .debug_aranges
+       0        0       20     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.debug_aranges)
+      20       20       60     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_aranges)
+      80       80       20     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.debug_aranges)
+      a0       a0       30     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_aranges)
+      d0       d0       48     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_aranges)
+     118      118       30     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_aranges)
+     148      148       58     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_aranges)
+     1a0      1a0       20     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.debug_aranges)
+     1c0      1c0       28     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_aranges)
+     1e8      1e8       38     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_aranges)
+     220      220       30     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_aranges)
+     250      250       30     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_aranges)
+       0        0     275e     1 .debug_str
+       0        0     275e     1         <internal>:(.debug_str)
+       0        0      92b     1 .debug_pubnames
+       0        0       31     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.debug_pubnames)
+      31       31      30c     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_pubnames)
+     33d      33d       aa     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.debug_pubnames)
+     3e7      3e7       6f     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_pubnames)
+     456      456       ac     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_pubnames)
+     502      502       c0     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_pubnames)
+     5c2      5c2      173     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_pubnames)
+     735      735       44     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.debug_pubnames)
+     779      779       55     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_pubnames)
+     7ce      7ce       69     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_pubnames)
+     837      837       83     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_pubnames)
+     8ba      8ba       71     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_pubnames)
+       0        0     124c     1 .debug_pubtypes
+       0        0       5c     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.debug_pubtypes)
+      5c       5c      a90     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_pubtypes)
+     aec      aec       24     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.debug_pubtypes)
+     b10      b10       65     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_pubtypes)
+     b75      b75       44     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_pubtypes)
+     bb9      bb9       c8     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_pubtypes)
+     c81      c81      47f     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_pubtypes)
+    1100     1100       3b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.debug_pubtypes)
+    113b     113b       43     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_pubtypes)
+    117e     117e       21     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_pubtypes)
+    119f     119f       75     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_pubtypes)
+    1214     1214       38     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_pubtypes)
+       0        0      204     1 .riscv.attributes
+       0        0       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.riscv.attributes)
+      2b       2b       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.riscv.attributes)
+      56       56       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.riscv.attributes)
+      81       81       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.riscv.attributes)
+      ac       ac       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.riscv.attributes)
+      d7       d7       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.riscv.attributes)
+     102      102       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.riscv.attributes)
+     12d      12d       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.riscv.attributes)
+     158      158       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.riscv.attributes)
+     183      183       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.riscv.attributes)
+     1ae      1ae       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.riscv.attributes)
+     1d9      1d9       2b     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.riscv.attributes)
+       0        0      4ac     4 .debug_frame
+       0        0       28     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.debug_frame)
+       0        0        0     1                 
+      28       28       d0     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_frame)
+      28       28        0     1                 
+      f8       f8       28     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.debug_frame)
+      f8       f8        0     1                 
+     120      120       50     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_frame)
+     120      120        0     1                 
+     170      170       98     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_frame)
+     170      170        0     1                 
+     208      208       5c     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_frame)
+     208      208        0     1                 
+     264      264       cc     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_frame)
+     264      264        0     1                 
+     330      330       2c     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.debug_frame)
+     330      330        0     1                 
+     35c      35c       3c     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_frame)
+     35c      35c        0     1                 
+     398      398       6c     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_frame)
+     398      398        0     1                 
+     404      404       54     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_frame)
+     404      404        0     1                 
+     458      458       54     4         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_frame)
+     458      458        0     1                 
+       0        0     11b0     1 .debug_line
+       0        0       a4     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.13yu99nsbnyh7v1e.rcgu.o:(.debug_line)
+       0        0        0     1                 .Lline_table_start0
+      a4       a4      49d     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_line)
+      a4       a4        0     1                 .Lline_table_start0
+     541      541       ae     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1uu37bgjf97v0jcc.rcgu.o:(.debug_line)
+     541      541        0     1                 .Lline_table_start0
+     5ef      5ef       dd     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_line)
+     5ef      5ef        0     1                 .Lline_table_start0
+     6cc      6cc      12d     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_line)
+     6cc      6cc        0     1                 .Lline_table_start0
+     7f9      7f9      2a3     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_line)
+     7f9      7f9        0     1                 .Lline_table_start0
+     a9c      a9c      2ed     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_line)
+     a9c      a9c        0     1                 .Lline_table_start0
+     d89      d89       ac     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.5aec06esg3g26rtg.rcgu.o:(.debug_line)
+     d89      d89        0     1                 .Lline_table_start0
+     e35      e35       c3     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_line)
+     e35      e35        0     1                 .Lline_table_start0
+     ef8      ef8       fb     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_line)
+     ef8      ef8        0     1                 .Lline_table_start0
+     ff3      ff3       d7     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_line)
+     ff3      ff3        0     1                 .Lline_table_start0
+    10ca     10ca       e6     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_line)
+    10ca     10ca        0     1                 .Lline_table_start0
+       0        0      1d0     1 .debug_ranges
+       0        0       90     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.1azu5puo22m3hyz5.rcgu.o:(.debug_ranges)
+       0        0        0     1                 
+      18       18        0     1                 
+      30       30        0     1                 
+      48       48        0     1                 
+      90       90       20     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.25348jm2wf22tu8r.rcgu.o:(.debug_ranges)
+      90       90        0     1                 
+      b0       b0       38     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.30jn7aia0d0ylnmo.rcgu.o:(.debug_ranges)
+      b0       b0        0     1                 
+      e8       e8       20     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4fl8b74sxd3gd3st.rcgu.o:(.debug_ranges)
+      e8       e8        0     1                 
+     108      108       48     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.4niz9zsx2ab232u5.rcgu.o:(.debug_ranges)
+     108      108        0     1                 
+     150      150       18     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.7pys0meabgqqgaw.rcgu.o:(.debug_ranges)
+     150      150        0     1                 
+     168      168       28     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.hc5bbs563dbqi2c.rcgu.o:(.debug_ranges)
+     168      168        0     1                 
+     190      190       20     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.r15m4up1q751f3t.rcgu.o:(.debug_ranges)
+     190      190        0     1                 
+     1b0      1b0       20     1         /home/dominik/Coding/hifive-flashloader/target/riscv32imac-unknown-none-elf/debug/deps/hifive_flashloader-2c3c1ea1c1b9445d.rrnipwjp9wux46y.rcgu.o:(.debug_ranges)
+     1b0      1b0        0     1                 
+       0        0       13     1 .comment
+       0        0       13     1         <internal>:(.comment)
+       0        0     15d0     4 .symtab
+       0        0     15d0     4         <internal>:(.symtab)
+       0        0       c4     1 .shstrtab
+       0        0       c4     1         <internal>:(.shstrtab)
+       0        0      ce4     1 .strtab
+       0        0      ce4     1         <internal>:(.strtab)

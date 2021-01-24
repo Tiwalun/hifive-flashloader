@@ -6,8 +6,7 @@
 //
 // [ARM CMSIS-Pack documentation]: https://arm-software.github.io/CMSIS_5/Pack/html/algorithmFunc.html
 
-//#[cfg(debug_assertions)]
-use panic_halt as _;
+use panic_never as _;
 
 use core::slice;
 use e310x::{qspi0, QSPI0};

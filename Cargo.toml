@@ -8,11 +8,7 @@ edition = "2018"
 
 [dependencies]
 panic-never  = "0.1.0"
-panic-halt   = "0.2.0"
 e310x    = { version = "0.8.1", features = ["g002"] }
-embedded-hal = "0.2.3"
-riscv        = "0.5.3"
-# hifive1 = {version = "0.8.1", features = ["board-hifive1-revb"]}
 
 
 [profile.release]
