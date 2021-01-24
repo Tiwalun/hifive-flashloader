@@ -42,7 +42,7 @@ jobs:
           name: hifive-flashloader
 
       - name: Install target-gen tool
-        uses: actions-rs/cargo@va
+        uses: actions-rs/cargo@v2
         with:
           command: install
           args: --git https://github.com/probe-rs/target-gen
