@@ -41,6 +41,11 @@ jobs:
         with:
           name: hifive-flashloader
 
+      - name: Install libusb
+        run: |
+          sudo apt update
+          sudo apt install -y libusb-1.0-0-dev
+
       - name: Install target-gen tool
         uses: actions-rs/cargo@v1
         with:
