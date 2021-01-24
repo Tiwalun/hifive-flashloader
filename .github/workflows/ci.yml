@@ -1,0 +1,32 @@
+on:
+  push:
+
+name: Build
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+          target: riscv32imac-unknown-none-elf
+          override: true
+
+      - name: Build
+        uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args: --release
+
+      - name: Store binary
+        uses: actions/upload-artifact@2
+        with:
+          name: flashloader-elf
+          path: target/riscv32imac-unknown-none-elf/release/hifive-flashloader
