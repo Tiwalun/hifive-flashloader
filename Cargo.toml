@@ -6,17 +6,13 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-#[lib]
-#crate-type = ["staticlib"]
-
 [dependencies]
 panic-never  = "0.1.0"
 panic-halt   = "0.2.0"
 e310x    = { version = "0.8.1", features = ["g002"] }
 embedded-hal = "0.2.3"
 riscv        = "0.5.3"
-riscv-rt = "0.6.0"
-hifive1 = {version = "0.8.1", features = ["board-hifive1-revb"]}
+# hifive1 = {version = "0.8.1", features = ["board-hifive1-revb"]}
 
 
 [profile.release]

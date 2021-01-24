@@ -1,51 +1,57 @@
-INCLUDE memory-fe310.x
-MEMORY
-{
-    FLASH : ORIGIN = 0x20000000, LENGTH = 4M
-}
 
-
-REGION_ALIAS("REGION_TEXT", FLASH);
-REGION_ALIAS("REGION_RODATA", FLASH);
-REGION_ALIAS("REGION_DATA", RAM);
-REGION_ALIAS("REGION_BSS", RAM);
-REGION_ALIAS("REGION_HEAP", RAM);
-REGION_ALIAS("REGION_STACK", RAM);
-
-/* Skip first 64k allocated for bootloader */
-_stext = 0x20010000;
-
-MEMORY 
-{
-    /* This is actually RAM, but we have relocatable code, so the origin does not matter */
-    loader : ORIGIN = 0x0, LENGTH = 16k
-}
-
+/*  The flash loader will be placed in RAM by the debugger,
+ *  so we don't need to specify any memory areas here.
+ */
 
 SECTIONS {
     . = 0x0;
 
+    /* Section for code and readonly data, specified by flashloader standard. */
     PrgCode : {
         . = ALIGN(4);
 
-        KEEP(*(PrgCode))
-        KEEP(*(PrgCode.*))
+        /* The KEEP is necessary to ensure that the
+         * sections don't get garbage collected by the linker.
+         * 
+         * Because this is not a normal binary with an entry point,
+         * the linker would just discard all the code without the
+         * KEEP statement here.
+         */
+
+        KEEP(*(.text))
+        KEEP(*(.text.*))
+
+        KEEP(*(.rodata))
+        KEEP(*(.rodata.*))
         
         . = ALIGN(4);
-    }  > loader
+    }
 
-    PrgData . : {
-        KEEP(*(PrgData))
-        KEEP(*(PrgData.*))
-    } > loader
+    /* Section for data, specified by flashloader standard. */
+    PrgData : {
+        *(.data .data.*)
+        *(.sdata .sdata.*)
 
+    }
+
+    PrgData : {
+        /* Zero-initialized data */
+        *(.bss .bss.*)
+        *(.sbss .sbss.*)
+
+        *(COMMON)
+    }
+
+    /* Description of the flash algorithm */
     DeviceData . : {
+        /* The device data content is only for external tools,
+         * and usually not referenced by the code.
+         *
+         * The KEEP statement ensures it's not removed by accident.
+         */
         KEEP(*(DeviceData))
-        KEEP(*(DeviceData.*))
-    } > loader
+    }
 }
-
-INCLUDE link.x
 
 
 

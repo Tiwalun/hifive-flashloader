@@ -12,9 +12,6 @@ use panic_halt as _;
 use core::slice;
 use e310x::{qspi0, QSPI0};
 
-use riscv_rt::entry;
-
-#[link_section = "PrgCode"]
 fn transfer_byte(spi: &qspi0::RegisterBlock, data: u8) -> u8 {
     // Wait until TX fifo is empty
     while spi.txdata.read().full().bit_is_set() {}
@@ -34,12 +31,10 @@ fn transfer_byte(spi: &qspi0::RegisterBlock, data: u8) -> u8 {
     }
 }
 
-#[link_section = "PrgCode"]
 fn write_enable(spi: &qspi0::RegisterBlock) {
     transfer_byte(spi, 0x06);
 }
 
-#[link_section = "PrgCode"]
 fn read_status_register(spi: &qspi0::RegisterBlock) -> u8 {
     spi.csmode.write(|w| w.mode().hold());
 
@@ -53,7 +48,6 @@ fn read_status_register(spi: &qspi0::RegisterBlock) -> u8 {
     val
 }
 
-#[link_section = "PrgCode"]
 fn wait_for_wip_clear(spi: &qspi0::RegisterBlock) {
     loop {
         let status = read_status_register(spi);
@@ -71,7 +65,6 @@ fn wait_for_wip_clear(spi: &qspi0::RegisterBlock) {
 /// Returns 0 on success, 1 on failure.
 #[no_mangle]
 #[inline(never)]
-#[link_section = "PrgCode"]
 pub extern "C" fn EraseSector(adr: u32) -> i32 {
     // Erase command for a single sector is
     // the 0xD7 / 0x20 command, followed by a 3-byte address
@@ -105,7 +98,6 @@ pub extern "C" fn EraseSector(adr: u32) -> i32 {
 /// Setup the device for the
 #[no_mangle]
 #[inline(never)]
-#[link_section = "PrgCode"]
 pub extern "C" fn Init(_adr: u32, _clk: u32, _fnc: u32) -> i32 {
     let spi = unsafe { &(*QSPI0::ptr()) };
 
@@ -117,7 +109,6 @@ pub extern "C" fn Init(_adr: u32, _clk: u32, _fnc: u32) -> i32 {
 
 #[no_mangle]
 #[inline(never)]
-#[link_section = "PrgCode"]
 pub extern "C" fn ProgramPage(adr: u32, sz: u32, buf: *const u8) -> i32 {
     let spi = unsafe { &(*QSPI0::ptr()) };
 
@@ -148,7 +139,6 @@ pub extern "C" fn ProgramPage(adr: u32, sz: u32, buf: *const u8) -> i32 {
 
 #[no_mangle]
 #[inline(never)]
-#[link_section = "PrgCode"]
 pub extern "C" fn UnInit(_fnc: u32) -> i32 {
     // Nothing to de-init
     0
@@ -220,16 +210,3 @@ const SECTOR_END: FlashSector = FlashSector {
     size: 0xffff_ffff,
     address: 0xffff_ffff,
 };
-
-#[link_section = "PrgData"]
-#[used]
-static DUMMY_DATA: u32 = 4;
-
-// Dummy main
-#[entry]
-unsafe fn main() -> ! {
-    Init(0, 0, 0);
-    loop {
-        continue;
-    }
-}
